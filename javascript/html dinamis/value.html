@@ -1,0 +1,23 @@
+<html>
+<head>
+
+<script type="text/javascript">
+
+function lihatisi(){
+	isi = document.getElementById("teks").value;
+	alert(isi);
+}
+
+function tukarisi(){
+	document.getElementById("teks").value="Tulisan ini diganti";
+}
+</script>
+</head>
+
+<body>
+Ketik tulisan di form di bawah : <br/>
+<input type="text" name="teks" id="teks"/>
+<input type="button" onclick="lihatisi()" value="Lihat"/>
+<input type="button" onclick="tukarisi()" value="Tukar"/>
+</body>
+</html>
